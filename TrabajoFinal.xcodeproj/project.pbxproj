@@ -11,6 +11,9 @@
 		FB2B661923149AB4003F86D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB2B661823149AB4003F86D6 /* GoogleService-Info.plist */; };
 		FB2B661B23149E25003F86D6 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B661A23149E25003F86D6 /* AlertHelper.swift */; };
 		FB2B661D2314A47A003F86D6 /* CrearUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B661C2314A47A003F86D6 /* CrearUsuarioViewController.swift */; };
+		FB2B661F2314C2F2003F86D6 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B661E2314C2F2003F86D6 /* Producto.swift */; };
+		FB2B66232314C838003F86D6 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B66222314C838003F86D6 /* ProductTableViewController.swift */; };
+		FB2B66252314CA48003F86D6 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B66242314CA48003F86D6 /* ProductTableViewCell.swift */; };
 		FB8D917E231491DA0041CE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D917D231491DA0041CE73 /* AppDelegate.swift */; };
 		FB8D9180231491DA0041CE73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D917F231491DA0041CE73 /* ViewController.swift */; };
 		FB8D9183231491DA0041CE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8D9181231491DA0041CE73 /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 		FB2B661823149AB4003F86D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FB2B661A23149E25003F86D6 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		FB2B661C2314A47A003F86D6 /* CrearUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearUsuarioViewController.swift; sourceTree = "<group>"; };
+		FB2B661E2314C2F2003F86D6 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		FB2B66222314C838003F86D6 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		FB2B66242314CA48003F86D6 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		FB8D917A231491DA0041CE73 /* TrabajoFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabajoFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8D917D231491DA0041CE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB8D917F231491DA0041CE73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				FB8D9192231494AF0041CE73 /* LoginViewController.swift */,
 				FB2B661A23149E25003F86D6 /* AlertHelper.swift */,
 				FB2B661C2314A47A003F86D6 /* CrearUsuarioViewController.swift */,
+				FB2B661E2314C2F2003F86D6 /* Producto.swift */,
+				FB2B66222314C838003F86D6 /* ProductTableViewController.swift */,
+				FB2B66242314CA48003F86D6 /* ProductTableViewCell.swift */,
 			);
 			path = TrabajoFinal;
 			sourceTree = "<group>";
@@ -220,7 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB2B661D2314A47A003F86D6 /* CrearUsuarioViewController.swift in Sources */,
+				FB2B66232314C838003F86D6 /* ProductTableViewController.swift in Sources */,
+				FB2B66252314CA48003F86D6 /* ProductTableViewCell.swift in Sources */,
 				FB8D9193231494AF0041CE73 /* LoginViewController.swift in Sources */,
+				FB2B661F2314C2F2003F86D6 /* Producto.swift in Sources */,
 				FB8D9186231491DA0041CE73 /* TrabajoFinal.xcdatamodeld in Sources */,
 				FB8D9180231491DA0041CE73 /* ViewController.swift in Sources */,
 				FB2B661B23149E25003F86D6 /* AlertHelper.swift in Sources */,
