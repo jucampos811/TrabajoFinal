@@ -1,0 +1,6 @@
+framework module Pods_TrabajoFinal {
+  umbrella header "Pods-TrabajoFinal-umbrella.h"
+
+  export *
+  module * { export * }
+}
