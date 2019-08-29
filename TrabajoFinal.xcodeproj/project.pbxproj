@@ -14,6 +14,11 @@
 		FB2B661F2314C2F2003F86D6 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B661E2314C2F2003F86D6 /* Producto.swift */; };
 		FB2B66232314C838003F86D6 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B66222314C838003F86D6 /* ProductTableViewController.swift */; };
 		FB2B66252314CA48003F86D6 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B66242314CA48003F86D6 /* ProductTableViewCell.swift */; };
+		FB8824D223174E9F00651DFE /* RegistrarProductoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8824D123174E9F00651DFE /* RegistrarProductoTableViewController.swift */; };
+		FB8824D423175D2500651DFE /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8824D323175D2500651DFE /* Usuario.swift */; };
+		FB8824D623175E9900651DFE /* RegistrarUsuarioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8824D523175E9900651DFE /* RegistrarUsuarioTableViewController.swift */; };
+		FB8824D8231768DA00651DFE /* ActualizarCuentaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8824D7231768DA00651DFE /* ActualizarCuentaTableViewController.swift */; };
+		FB8824DC2317744400651DFE /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8824DB2317744400651DFE /* DetalleViewController.swift */; };
 		FB8D917E231491DA0041CE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D917D231491DA0041CE73 /* AppDelegate.swift */; };
 		FB8D9180231491DA0041CE73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D917F231491DA0041CE73 /* ViewController.swift */; };
 		FB8D9183231491DA0041CE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8D9181231491DA0041CE73 /* Main.storyboard */; };
@@ -33,6 +38,11 @@
 		FB2B661E2314C2F2003F86D6 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		FB2B66222314C838003F86D6 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 		FB2B66242314CA48003F86D6 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		FB8824D123174E9F00651DFE /* RegistrarProductoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarProductoTableViewController.swift; sourceTree = "<group>"; };
+		FB8824D323175D2500651DFE /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		FB8824D523175E9900651DFE /* RegistrarUsuarioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarUsuarioTableViewController.swift; sourceTree = "<group>"; };
+		FB8824D7231768DA00651DFE /* ActualizarCuentaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualizarCuentaTableViewController.swift; sourceTree = "<group>"; };
+		FB8824DB2317744400651DFE /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
 		FB8D917A231491DA0041CE73 /* TrabajoFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabajoFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8D917D231491DA0041CE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB8D917F231491DA0041CE73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +118,11 @@
 				FB2B661E2314C2F2003F86D6 /* Producto.swift */,
 				FB2B66222314C838003F86D6 /* ProductTableViewController.swift */,
 				FB2B66242314CA48003F86D6 /* ProductTableViewCell.swift */,
+				FB8824D123174E9F00651DFE /* RegistrarProductoTableViewController.swift */,
+				FB8824D323175D2500651DFE /* Usuario.swift */,
+				FB8824D523175E9900651DFE /* RegistrarUsuarioTableViewController.swift */,
+				FB8824D7231768DA00651DFE /* ActualizarCuentaTableViewController.swift */,
+				FB8824DB2317744400651DFE /* DetalleViewController.swift */,
 			);
 			path = TrabajoFinal;
 			sourceTree = "<group>";
@@ -228,15 +243,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8824DC2317744400651DFE /* DetalleViewController.swift in Sources */,
 				FB2B661D2314A47A003F86D6 /* CrearUsuarioViewController.swift in Sources */,
+				FB8824D8231768DA00651DFE /* ActualizarCuentaTableViewController.swift in Sources */,
 				FB2B66232314C838003F86D6 /* ProductTableViewController.swift in Sources */,
+				FB8824D623175E9900651DFE /* RegistrarUsuarioTableViewController.swift in Sources */,
 				FB2B66252314CA48003F86D6 /* ProductTableViewCell.swift in Sources */,
 				FB8D9193231494AF0041CE73 /* LoginViewController.swift in Sources */,
 				FB2B661F2314C2F2003F86D6 /* Producto.swift in Sources */,
 				FB8D9186231491DA0041CE73 /* TrabajoFinal.xcdatamodeld in Sources */,
 				FB8D9180231491DA0041CE73 /* ViewController.swift in Sources */,
+				FB8824D223174E9F00651DFE /* RegistrarProductoTableViewController.swift in Sources */,
 				FB2B661B23149E25003F86D6 /* AlertHelper.swift in Sources */,
 				FB8D917E231491DA0041CE73 /* AppDelegate.swift in Sources */,
+				FB8824D423175D2500651DFE /* Usuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

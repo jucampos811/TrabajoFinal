@@ -42,6 +42,11 @@ class LoginViewController: UIViewController {
             }
             //Se verifico el logeo
             //Se direcciona a la siguiente vista (Lista de productos de deportes)
+            if let uid = auth?.user.uid {
+                UserDefaults.standard.set(uid, forKey: "uid")
+                UserDefaults.standard.synchronize()
+            }
+           
             let stb = UIStoryboard(name: "Main", bundle: nil)
             let controller = stb.instantiateViewController(withIdentifier: "tarBarProdDeporte")
             self.present(controller, animated: true, completion: nil)
